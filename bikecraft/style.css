@@ -1,0 +1,71 @@
+body {
+  background-color: #f7f7f7;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  display: grid;
+  gap: 60px;
+  justify-items: center;
+  margin-top: 60px;
+}
+
+p,
+h1,
+h2,
+h3 {
+  margin: 0px;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.menu a {
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  padding: 15px 30px;
+  border-radius: 4px;
+}
+
+#bicicleta {
+  width: 100%;
+  display: block;
+}
+
+.conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1000px;
+}
+
+.introducao {
+  display: grid;
+  background-color: white;
+  padding: 40px;
+  text-align: right;
+  position: relative;
+  align-content: center;
+  gap: 20px;
+  justify-items: end;
+}
+
+.botao {
+  text-decoration: none;
+  background-color: #ee2211;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 4px;
+}
+
+.detalhe {
+  width: 60px;
+  height: 4px;
+  background-color: #ee2211;
+  display: inline-block;
+  position: absolute;
+  top: 30px;
+  right: -30px;
+}
